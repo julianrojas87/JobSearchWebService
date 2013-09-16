@@ -31,7 +31,6 @@ public class JobSearch {
 
     public static String url = "http://www.authenticjobs.com/api/?";
     public static final String apiKey = "82f8010418d07f1d0952020613e474b9";
-    //public static String keyword;
 
     public static String getJobOffers(String keyword) {
         HttpClient client = new DefaultHttpClient();
